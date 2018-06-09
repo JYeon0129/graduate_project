@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.leetaesoon.thebestsleep.MainActivity"
+    tools:context="com.example.wkddu.graduate_project.MainActivity"
     android:background="#00000000">
     <Button
         android:id="@+id/lamp_btn"

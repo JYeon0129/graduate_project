@@ -1,4 +1,4 @@
-package com.example.leetaesoon.thebestsleep;
+package com.example.wkddu.graduate_project;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;

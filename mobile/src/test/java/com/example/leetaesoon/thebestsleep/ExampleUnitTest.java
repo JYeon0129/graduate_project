@@ -1,4 +1,4 @@
-package com.example.leetaesoon.thebestsleep;
+package com.example.wkddu.graduate_project;
 
 import org.junit.Test;
 

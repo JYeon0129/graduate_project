@@ -1,4 +1,4 @@
-package com.example.leetaesoon.thebestsleep;
+package com.example.wkddu.graduate_project;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -62,11 +62,11 @@ public class LampColorSetting extends Activity implements SeekBar.OnSeekBarChang
         //Reference the value changing
         int id=seekBar.getId();
         //Get the chnaged value
-        if(id == com.example.leetaesoon.thebestsleep.R.id.red_bar)
+        if(id == com.example.wkddu.graduate_project.R.id.red_bar)
             R=progress;
-        else if(id == com.example.leetaesoon.thebestsleep.R.id.green_bar)
+        else if(id == com.example.wkddu.graduate_project.R.id.green_bar)
             G=progress;
-        else if(id == com.example.leetaesoon.thebestsleep.R.id.blue_bar)
+        else if(id == com.example.wkddu.graduate_project.R.id.blue_bar)
             B=progress;
         //Build and show the new color
         //some math so text shows (needs improvement for greys)
@@ -85,14 +85,14 @@ public class LampColorSetting extends Activity implements SeekBar.OnSeekBarChang
     public void onStopTrackingTouch(SeekBar seekBar) {
         int id=seekBar.getId();
         //Get the chnaged value
-        if(id == com.example.leetaesoon.thebestsleep.R.id.red_bar)
+        if(id == com.example.wkddu.graduate_project.R.id.red_bar)
         {
             lampItems.get(position).setLampR(seekBar.getProgress());
         }
-        else if(id == com.example.leetaesoon.thebestsleep.R.id.green_bar){
+        else if(id == com.example.wkddu.graduate_project.R.id.green_bar){
             lampItems.get(position).setLampG(seekBar.getProgress());
         }
-        else if(id == com.example.leetaesoon.thebestsleep.R.id.blue_bar){
+        else if(id == com.example.wkddu.graduate_project.R.id.blue_bar){
             lampItems.get(position).setLampB(seekBar.getProgress());
         }
 

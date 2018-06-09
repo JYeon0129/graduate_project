@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/background"
     android:padding="@dimen/box_inset_layout_padding"
-    tools:context="com.example.leetaesoon.thebestsleep.MainActivity"
+    tools:context="com.example.wkddu.graduate_project.MainActivity"
     tools:deviceIds="wear">
 
     <FrameLayout

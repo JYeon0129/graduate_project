@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.leetaesoon.thebestsleep.LampBridge">
+    tools:context="com.example.wkddu.graduate_project.LampBridge">
     <ListView
         android:id="@+id/bridge_list"
         android:layout_width="fill_parent"
